@@ -35,7 +35,8 @@ class HouseFeatures(BaseModel):
 
 @app.get("/")
 def home():
-    return {"message": "House Price Prediction API"}
+    # return {"message": "House Price Prediction API"} # version 1
+    return {"message": "House Price Prediction API - Version 2"}   # version 2
 
 
 @app.get("/health")
